@@ -37,5 +37,5 @@ type TwitterUser struct {
 	Show_all_inline_media              *bool `json:"show_all_inline_media"`
 	Profile_text_color                 *string `json:"profile_text_color"`
 	Lang                               *string `json:"lang"`
-	Entities                           *ITwitterEntities `json:"entities"`
+	Entities                           *TwitterEntities `json:"entities"`
 }
